@@ -1,0 +1,6 @@
+CSV_files_DJT/
+labels.csv
+*.csv
+trajectories/
+*.mat
+runs/
