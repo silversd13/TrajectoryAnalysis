@@ -31,7 +31,8 @@ trajs_loader = torch.utils.data.DataLoader(trajs, batch_size=768, shuffle=True)
 
 # instance of neural net
 # nnet = TwoLayerNet()
-nnet = ConvNet()
+# nnet = ConvNet()
+nnet = ConvNet(num_times=5, l1_conv_ks=7, l1_max_ks=4, l2_conv_ks=7, l2_max_ks=2)
 nnet.to('cpu')
 nnet.train()
 
@@ -43,7 +44,7 @@ criterion = nn.SmoothL1Loss()
 optimizer = torch.optim.Adam(nnet.parameters(), lr=eta)
 
 # train neural net
-num_epochs = 10000
+num_epochs = 2000
 for epoch in range(num_epochs):
 	for i, sample in enumerate(trajs_loader):
 		traj = sample['traj'].float().to('cpu')

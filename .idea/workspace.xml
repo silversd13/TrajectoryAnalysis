@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d39f136-cf72-41f5-b152-50c2f5f2ff9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Grasp/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Grasp/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Grasp/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Grasp/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Move/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Move/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Move/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Move/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Pellet/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Pellet/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Pellet/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Pellet/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Reach/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Reach/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Reach/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Reach/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Retract/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Retract/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Retract/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_Retract/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_TotalLoss/events.out.tfevents.1539391203.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_TotalLoss/events.out.tfevents.1539449882.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_TotalLoss/events.out.tfevents.1539450125.mrratburn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/ConvNet_Adam_SL1_TotalLoss/events.out.tfevents.1539450284.mrratburn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dsilver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dsilver.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvNetState.ckpt" beforeDir="false" afterPath="$PROJECT_DIR$/ConvNetState.ckpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_nn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +16,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TrajectoryAnalysis$optim_kernelz_analysis.coverage" NAME="optim_kernelz_analysis Coverage Results" MODIFIED="1540257261925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TrajectoryAnalysis$optim_kernelsz.coverage" NAME="optim_kernelsz Coverage Results" MODIFIED="1540255822248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TrajectoryAnalysis$train_nn.coverage" NAME="train_nn Coverage Results" MODIFIED="1539389990491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TrajectoryAnalysis$explore_traj_script.coverage" NAME="explore_traj_script Coverage Results" MODIFIED="1539292462137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -41,36 +25,39 @@
     <session id="1511044571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1012" />
-          <entry key="py" value="3971" />
+          <entry key="Python Console" value="1448" />
+          <entry key="optim_kernelsz" value="1" />
+          <entry key="py" value="5240" />
           <entry key="train_nn" value="256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5239" />
+          <entry key="Python" value="6945" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -80,19 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/load_trajs.py">
+        <entry file="file://$PROJECT_DIR$/optim_kernelsz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_nn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="450">
+              <caret line="38" column="131" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="131" />
               <folding>
                 <element signature="e#74#83#0" expanded="true" />
               </folding>
@@ -101,19 +79,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TwoLayerNet.py">
+        <entry file="file://$PROJECT_DIR$/optim_kernelz_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="399">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train_nn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <folding>
+                <element signature="e#74#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="510">
+              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -136,8 +126,10 @@
         <option value="$PROJECT_DIR$/explore_traj_script.py" />
         <option value="$PROJECT_DIR$/TwoLayerNet.py" />
         <option value="$PROJECT_DIR$/load_trajs.py" />
-        <option value="$PROJECT_DIR$/train_nn.py" />
+        <option value="$PROJECT_DIR$/optim_kernelsz.py" />
         <option value="$PROJECT_DIR$/ConvNet.py" />
+        <option value="$PROJECT_DIR$/optim_kernelz_analysis.py" />
+        <option value="$PROJECT_DIR$/train_nn.py" />
       </list>
     </option>
   </component>
@@ -240,13 +232,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="optim_kernelsz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TrajectoryAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optim_kernelsz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optim_kernelz_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TrajectoryAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/optim_kernelz_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_nn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TrajectoryAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -265,10 +295,14 @@
     <list>
       <item itemvalue="Python.explore_traj_script" />
       <item itemvalue="Python.train_nn" />
+      <item itemvalue="Python.optim_kernelsz" />
+      <item itemvalue="Python.optim_kernelz_analysis" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.train_nn" />
+        <item itemvalue="Python.optim_kernelz_analysis" />
+        <item itemvalue="Python.optim_kernelsz" />
         <item itemvalue="Python.explore_traj_script" />
       </list>
     </recent_temporary>
@@ -298,22 +332,22 @@
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1039" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15154749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33564568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281768" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.2685083" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21483943" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4994664" weight="0.2685083" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.41749722" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.4994664" visible="true" weight="0.3875969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,6 +398,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TwoLayerNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/load_trajs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -371,27 +412,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_nn.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/torch/nn/modules/linear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optim_kernelz_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optim_kernelsz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="131" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="131" />
           <folding>
             <element signature="e#74#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwoLayerNet.py">
+    <entry file="file://$PROJECT_DIR$/train_nn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConvNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="210">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="e#74#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

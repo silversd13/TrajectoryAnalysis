@@ -17,21 +17,22 @@ class ConvNet(nn.Module):
         Sz: (1,32,241) -> num_times
     '''
 
-    def __init__(self):
-        num_times = 5  # number of trial times to predict
+    def __init__(self, num_times=5, l1_conv_ks=11, l1_max_ks=4, l2_conv_ks=11, l2_max_ks=4):
         super(ConvNet, self).__init__()
         self.layer1 = nn.Sequential(
-            nn.Conv1d(2, 16, kernel_size=11, stride=1),
+            nn.Conv1d(2, 16, kernel_size=l1_conv_ks, stride=1),
             nn.ReLU(),
-            nn.MaxPool1d(kernel_size=4, stride=2),
+            nn.MaxPool1d(kernel_size=l1_max_ks, stride=2),
             nn.Dropout(p=.2))
         self.layer2 = nn.Sequential(
-            nn.Conv1d(16, 32, kernel_size=11, stride=1),
+            nn.Conv1d(16, 32, kernel_size=l2_conv_ks, stride=1),
             nn.ReLU(),
-            nn.MaxPool1d(kernel_size=4, stride=2),
+            nn.MaxPool1d(kernel_size=l2_max_ks, stride=2),
             nn.Dropout(p=.2))
         self.layer3 = nn.Sequential(
-            nn.Linear(1*32*241, num_times),
+            nn.Linear(int(1*32*(
+                ((((((1000 - (l1_conv_ks-1)) - (l1_max_ks-1)-1)/2 + 1)
+                    - (l2_conv_ks-1)) - (l2_max_ks-1)-1)/2 + 1))), num_times),
             nn.ReLU())
 
     def forward(self, x):
